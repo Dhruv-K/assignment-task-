@@ -58,11 +58,3 @@ docker run -p 8000:8000 -e DATABASE_URL=postgresql://user:pass@host:5432/db -e J
 3. Create a new service from your GitHub repo.
 4. Set `DATABASE_URL` and `JWT_SECRET_KEY` as environment variables.
 5. Deploy using the root Dockerfile.
-
-## Demo Video
-
-- Show signup and login
-- Create a project
-- Open the project and add tasks
-- Change task status across Todo, In Progress, and Done
-- Show the live Railway deployment
